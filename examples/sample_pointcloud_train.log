@@ -1,0 +1,111 @@
+# Sample 3D plant point cloud semantic segmentation training log
+# Model: PointNeXt-style custom plant segmentation network
+# Task: leaf / stem semantic segmentation and phenotyping preprocessing
+Epoch 1/100 | train_loss: 1.2896 | val_loss: 1.1610 | mIoU: 0.3607 | F1: 0.4088 | OA: 0.4407 | Precision: 0.4655 | Recall: 0.3656 | leaf_iou: 0.4564 | stem_iou: 0.2564
+Epoch 2/100 | train_loss: 1.2553 | val_loss: 1.1376 | mIoU: 0.3807 | F1: 0.4268 | OA: 0.4607 | Precision: 0.4851 | Recall: 0.3829 | leaf_iou: 0.4771 | stem_iou: 0.2768
+Epoch 3/100 | train_loss: 1.2220 | val_loss: 1.1147 | mIoU: 0.3999 | F1: 0.4436 | OA: 0.4799 | Precision: 0.5034 | Recall: 0.3985 | leaf_iou: 0.4970 | stem_iou: 0.2962
+Epoch 4/100 | train_loss: 1.1896 | val_loss: 1.0923 | mIoU: 0.4183 | F1: 0.4590 | OA: 0.4983 | Precision: 0.5202 | Recall: 0.4124 | leaf_iou: 0.5160 | stem_iou: 0.3146
+Epoch 5/100 | train_loss: 1.1582 | val_loss: 1.0705 | mIoU: 0.4358 | F1: 0.4729 | OA: 0.5158 | Precision: 0.5353 | Recall: 0.4244 | leaf_iou: 0.5341 | stem_iou: 0.3319
+Epoch 6/100 | train_loss: 1.1276 | val_loss: 1.0492 | mIoU: 0.4525 | F1: 0.4853 | OA: 0.5325 | Precision: 0.5487 | Recall: 0.4347 | leaf_iou: 0.5513 | stem_iou: 0.3480
+Epoch 7/100 | train_loss: 1.0980 | val_loss: 1.0284 | mIoU: 0.4682 | F1: 0.4963 | OA: 0.5482 | Precision: 0.5605 | Recall: 0.4433 | leaf_iou: 0.5674 | stem_iou: 0.3631
+Epoch 8/100 | train_loss: 1.0692 | val_loss: 1.0081 | mIoU: 0.4831 | F1: 0.5060 | OA: 0.5631 | Precision: 0.5707 | Recall: 0.4507 | leaf_iou: 0.5826 | stem_iou: 0.3771
+Epoch 9/100 | train_loss: 1.0413 | val_loss: 0.9883 | mIoU: 0.4971 | F1: 0.5149 | OA: 0.5771 | Precision: 0.5799 | Recall: 0.4572 | leaf_iou: 0.5969 | stem_iou: 0.3900
+Epoch 10/100 | train_loss: 1.0141 | val_loss: 0.9689 | mIoU: 0.5104 | F1: 0.5232 | OA: 0.5904 | Precision: 0.5882 | Recall: 0.4632 | leaf_iou: 0.6103 | stem_iou: 0.4020
+Epoch 11/100 | train_loss: 0.9878 | val_loss: 0.9500 | mIoU: 0.5229 | F1: 0.5314 | OA: 0.6029 | Precision: 0.5960 | Recall: 0.4693 | leaf_iou: 0.6229 | stem_iou: 0.4130
+Epoch 12/100 | train_loss: 0.9622 | val_loss: 0.9315 | mIoU: 0.5348 | F1: 0.5397 | OA: 0.6148 | Precision: 0.6038 | Recall: 0.4759 | leaf_iou: 0.6348 | stem_iou: 0.4233
+Epoch 13/100 | train_loss: 0.9374 | val_loss: 0.9135 | mIoU: 0.5462 | F1: 0.5485 | OA: 0.6262 | Precision: 0.6118 | Recall: 0.4833 | leaf_iou: 0.6460 | stem_iou: 0.4329
+Epoch 14/100 | train_loss: 0.9132 | val_loss: 0.8959 | mIoU: 0.5571 | F1: 0.5581 | OA: 0.6371 | Precision: 0.6203 | Recall: 0.4918 | leaf_iou: 0.6567 | stem_iou: 0.4419
+Epoch 15/100 | train_loss: 0.8898 | val_loss: 0.8787 | mIoU: 0.5677 | F1: 0.5684 | OA: 0.6477 | Precision: 0.6294 | Recall: 0.5015 | leaf_iou: 0.6669 | stem_iou: 0.4505
+Epoch 16/100 | train_loss: 0.8671 | val_loss: 0.8619 | mIoU: 0.5780 | F1: 0.5794 | OA: 0.6580 | Precision: 0.6390 | Recall: 0.5124 | leaf_iou: 0.6768 | stem_iou: 0.4587
+Epoch 17/100 | train_loss: 0.8450 | val_loss: 0.8455 | mIoU: 0.5881 | F1: 0.5911 | OA: 0.6681 | Precision: 0.6491 | Recall: 0.5245 | leaf_iou: 0.6864 | stem_iou: 0.4667
+Epoch 18/100 | train_loss: 0.8235 | val_loss: 0.8295 | mIoU: 0.5981 | F1: 0.6030 | OA: 0.6781 | Precision: 0.6594 | Recall: 0.5373 | leaf_iou: 0.6958 | stem_iou: 0.4746
+Epoch 19/100 | train_loss: 0.8027 | val_loss: 0.8138 | mIoU: 0.6081 | F1: 0.6150 | OA: 0.6881 | Precision: 0.6698 | Recall: 0.5505 | leaf_iou: 0.7051 | stem_iou: 0.4824
+Epoch 20/100 | train_loss: 0.7825 | val_loss: 0.7986 | mIoU: 0.6180 | F1: 0.6267 | OA: 0.6980 | Precision: 0.6798 | Recall: 0.5639 | leaf_iou: 0.7144 | stem_iou: 0.4903
+Epoch 21/100 | train_loss: 0.7628 | val_loss: 0.7837 | mIoU: 0.6279 | F1: 0.6377 | OA: 0.7079 | Precision: 0.6892 | Recall: 0.5768 | leaf_iou: 0.7236 | stem_iou: 0.4983
+Epoch 22/100 | train_loss: 0.7438 | val_loss: 0.7691 | mIoU: 0.6379 | F1: 0.6477 | OA: 0.7179 | Precision: 0.6977 | Recall: 0.5890 | leaf_iou: 0.7329 | stem_iou: 0.5064
+Epoch 23/100 | train_loss: 0.7253 | val_loss: 0.7549 | mIoU: 0.6478 | F1: 0.6565 | OA: 0.7278 | Precision: 0.7051 | Recall: 0.6001 | leaf_iou: 0.7421 | stem_iou: 0.5146
+Epoch 24/100 | train_loss: 0.7073 | val_loss: 0.7410 | mIoU: 0.6576 | F1: 0.6640 | OA: 0.7376 | Precision: 0.7114 | Recall: 0.6100 | leaf_iou: 0.7512 | stem_iou: 0.5229
+Epoch 25/100 | train_loss: 0.6898 | val_loss: 0.7275 | mIoU: 0.6673 | F1: 0.6701 | OA: 0.7473 | Precision: 0.7166 | Recall: 0.6185 | leaf_iou: 0.7603 | stem_iou: 0.5312
+Epoch 26/100 | train_loss: 0.6729 | val_loss: 0.7142 | mIoU: 0.6769 | F1: 0.6751 | OA: 0.7569 | Precision: 0.7208 | Recall: 0.6257 | leaf_iou: 0.7692 | stem_iou: 0.5397
+Epoch 27/100 | train_loss: 0.6564 | val_loss: 0.7013 | mIoU: 0.6862 | F1: 0.6790 | OA: 0.7662 | Precision: 0.7243 | Recall: 0.6316 | leaf_iou: 0.7779 | stem_iou: 0.5481
+Epoch 28/100 | train_loss: 0.6404 | val_loss: 0.6887 | mIoU: 0.6952 | F1: 0.6823 | OA: 0.7752 | Precision: 0.7273 | Recall: 0.6366 | leaf_iou: 0.7864 | stem_iou: 0.5564
+Epoch 29/100 | train_loss: 0.6249 | val_loss: 0.6764 | mIoU: 0.7038 | F1: 0.6853 | OA: 0.7838 | Precision: 0.7304 | Recall: 0.6410 | leaf_iou: 0.7946 | stem_iou: 0.5646
+Epoch 30/100 | train_loss: 0.6098 | val_loss: 0.6643 | mIoU: 0.7120 | F1: 0.6884 | OA: 0.7920 | Precision: 0.7338 | Recall: 0.6449 | leaf_iou: 0.8024 | stem_iou: 0.5727
+Epoch 31/100 | train_loss: 0.5952 | val_loss: 0.6526 | mIoU: 0.7196 | F1: 0.6919 | OA: 0.7996 | Precision: 0.7379 | Recall: 0.6488 | leaf_iou: 0.8098 | stem_iou: 0.5805
+Epoch 32/100 | train_loss: 0.5810 | val_loss: 0.6411 | mIoU: 0.7268 | F1: 0.6960 | OA: 0.8068 | Precision: 0.7429 | Recall: 0.6529 | leaf_iou: 0.8168 | stem_iou: 0.5881
+Epoch 33/100 | train_loss: 0.5672 | val_loss: 0.6299 | mIoU: 0.7333 | F1: 0.7010 | OA: 0.8133 | Precision: 0.7489 | Recall: 0.6574 | leaf_iou: 0.8233 | stem_iou: 0.5953
+Epoch 34/100 | train_loss: 0.5538 | val_loss: 0.6190 | mIoU: 0.7393 | F1: 0.7069 | OA: 0.8193 | Precision: 0.7561 | Recall: 0.6624 | leaf_iou: 0.8294 | stem_iou: 0.6023
+Epoch 35/100 | train_loss: 0.5408 | val_loss: 0.6083 | mIoU: 0.7448 | F1: 0.7137 | OA: 0.8248 | Precision: 0.7644 | Recall: 0.6678 | leaf_iou: 0.8350 | stem_iou: 0.6090
+Epoch 36/100 | train_loss: 0.5282 | val_loss: 0.5979 | mIoU: 0.7498 | F1: 0.7212 | OA: 0.8298 | Precision: 0.7734 | Recall: 0.6735 | leaf_iou: 0.8403 | stem_iou: 0.6155
+Epoch 37/100 | train_loss: 0.5159 | val_loss: 0.5877 | mIoU: 0.7543 | F1: 0.7292 | OA: 0.8343 | Precision: 0.7830 | Recall: 0.6794 | leaf_iou: 0.8451 | stem_iou: 0.6216
+Epoch 38/100 | train_loss: 0.5040 | val_loss: 0.5777 | mIoU: 0.7585 | F1: 0.7372 | OA: 0.8385 | Precision: 0.7927 | Recall: 0.6852 | leaf_iou: 0.8497 | stem_iou: 0.6276
+Epoch 39/100 | train_loss: 0.4924 | val_loss: 0.5680 | mIoU: 0.7623 | F1: 0.7449 | OA: 0.8423 | Precision: 0.8021 | Recall: 0.6906 | leaf_iou: 0.8540 | stem_iou: 0.6335
+Epoch 40/100 | train_loss: 0.4812 | val_loss: 0.5585 | mIoU: 0.7659 | F1: 0.7521 | OA: 0.8459 | Precision: 0.8108 | Recall: 0.6954 | leaf_iou: 0.8582 | stem_iou: 0.6392
+Epoch 41/100 | train_loss: 0.4703 | val_loss: 0.5493 | mIoU: 0.7694 | F1: 0.7584 | OA: 0.8494 | Precision: 0.8186 | Recall: 0.6993 | leaf_iou: 0.8623 | stem_iou: 0.6450
+Epoch 42/100 | train_loss: 0.4597 | val_loss: 0.5402 | mIoU: 0.7728 | F1: 0.7635 | OA: 0.8528 | Precision: 0.8251 | Recall: 0.7023 | leaf_iou: 0.8664 | stem_iou: 0.6507
+Epoch 43/100 | train_loss: 0.4494 | val_loss: 0.5314 | mIoU: 0.7762 | F1: 0.7674 | OA: 0.8562 | Precision: 0.8301 | Recall: 0.7043 | leaf_iou: 0.8705 | stem_iou: 0.6565
+Epoch 44/100 | train_loss: 0.4395 | val_loss: 0.5228 | mIoU: 0.7798 | F1: 0.7701 | OA: 0.8598 | Precision: 0.8338 | Recall: 0.7054 | leaf_iou: 0.8748 | stem_iou: 0.6624
+Epoch 45/100 | train_loss: 0.4298 | val_loss: 0.5144 | mIoU: 0.7835 | F1: 0.7717 | OA: 0.8635 | Precision: 0.8361 | Recall: 0.7058 | leaf_iou: 0.8792 | stem_iou: 0.6684
+Epoch 46/100 | train_loss: 0.4203 | val_loss: 0.5061 | mIoU: 0.7873 | F1: 0.7725 | OA: 0.8673 | Precision: 0.8374 | Recall: 0.7058 | leaf_iou: 0.8837 | stem_iou: 0.6746
+Epoch 47/100 | train_loss: 0.4112 | val_loss: 0.4981 | mIoU: 0.7914 | F1: 0.7728 | OA: 0.8714 | Precision: 0.8378 | Recall: 0.7058 | leaf_iou: 0.8885 | stem_iou: 0.6808
+Epoch 48/100 | train_loss: 0.4023 | val_loss: 0.4903 | mIoU: 0.7957 | F1: 0.7730 | OA: 0.8757 | Precision: 0.8378 | Recall: 0.7061 | leaf_iou: 0.8934 | stem_iou: 0.6871
+Epoch 49/100 | train_loss: 0.3937 | val_loss: 0.4826 | mIoU: 0.8001 | F1: 0.7534 | OA: 0.8801 | Precision: 0.8180 | Recall: 0.6873 | leaf_iou: 0.8984 | stem_iou: 0.6934
+Epoch 50/100 | train_loss: 0.3853 | val_loss: 0.4752 | mIoU: 0.8047 | F1: 0.7397 | OA: 0.8847 | Precision: 0.8035 | Recall: 0.6746 | leaf_iou: 0.9035 | stem_iou: 0.6997
+Epoch 51/100 | train_loss: 0.3772 | val_loss: 0.4679 | mIoU: 0.8093 | F1: 0.7383 | OA: 0.8893 | Precision: 0.8013 | Recall: 0.6747 | leaf_iou: 0.9085 | stem_iou: 0.7058
+Epoch 52/100 | train_loss: 0.3693 | val_loss: 0.4607 | mIoU: 0.8140 | F1: 0.7505 | OA: 0.8940 | Precision: 0.8123 | Recall: 0.6887 | leaf_iou: 0.9136 | stem_iou: 0.7117
+Epoch 53/100 | train_loss: 0.3617 | val_loss: 0.4538 | mIoU: 0.8187 | F1: 0.7731 | OA: 0.8987 | Precision: 0.8337 | Recall: 0.7135 | leaf_iou: 0.9185 | stem_iou: 0.7173
+Epoch 54/100 | train_loss: 0.3542 | val_loss: 0.4470 | mIoU: 0.8232 | F1: 0.7996 | OA: 0.9032 | Precision: 0.8588 | Recall: 0.7423 | leaf_iou: 0.9231 | stem_iou: 0.7225
+Epoch 55/100 | train_loss: 0.3470 | val_loss: 0.4403 | mIoU: 0.8275 | F1: 0.8226 | OA: 0.9075 | Precision: 0.8801 | Recall: 0.7676 | leaf_iou: 0.9275 | stem_iou: 0.7273
+Epoch 56/100 | train_loss: 0.3400 | val_loss: 0.4339 | mIoU: 0.8315 | F1: 0.8357 | OA: 0.9115 | Precision: 0.8916 | Recall: 0.7831 | leaf_iou: 0.9315 | stem_iou: 0.7314
+Epoch 57/100 | train_loss: 0.3332 | val_loss: 0.4275 | mIoU: 0.8352 | F1: 0.8361 | OA: 0.9152 | Precision: 0.8904 | Recall: 0.7858 | leaf_iou: 0.9350 | stem_iou: 0.7350
+Epoch 58/100 | train_loss: 0.3266 | val_loss: 0.4214 | mIoU: 0.8385 | F1: 0.8254 | OA: 0.9185 | Precision: 0.8780 | Recall: 0.7772 | leaf_iou: 0.9381 | stem_iou: 0.7379
+Epoch 59/100 | train_loss: 0.3201 | val_loss: 0.4153 | mIoU: 0.8414 | F1: 0.8086 | OA: 0.9214 | Precision: 0.8596 | Recall: 0.7623 | leaf_iou: 0.9406 | stem_iou: 0.7401
+Epoch 60/100 | train_loss: 0.3139 | val_loss: 0.4094 | mIoU: 0.8439 | F1: 0.7929 | OA: 0.9239 | Precision: 0.8424 | Recall: 0.7480 | leaf_iou: 0.9427 | stem_iou: 0.7416
+Epoch 61/100 | train_loss: 0.3079 | val_loss: 0.4037 | mIoU: 0.8460 | F1: 0.7846 | OA: 0.9260 | Precision: 0.8329 | Recall: 0.7408 | leaf_iou: 0.9443 | stem_iou: 0.7425
+Epoch 62/100 | train_loss: 0.3020 | val_loss: 0.3981 | mIoU: 0.8477 | F1: 0.7876 | OA: 0.9277 | Precision: 0.8347 | Recall: 0.7444 | leaf_iou: 0.9454 | stem_iou: 0.7427
+Epoch 63/100 | train_loss: 0.2963 | val_loss: 0.3926 | mIoU: 0.8490 | F1: 0.8015 | OA: 0.9290 | Precision: 0.8477 | Recall: 0.7584 | leaf_iou: 0.9460 | stem_iou: 0.7423
+Epoch 64/100 | train_loss: 0.2907 | val_loss: 0.3872 | mIoU: 0.8500 | F1: 0.8220 | OA: 0.9300 | Precision: 0.8675 | Recall: 0.7786 | leaf_iou: 0.9464 | stem_iou: 0.7415
+Epoch 65/100 | train_loss: 0.2853 | val_loss: 0.3820 | mIoU: 0.8508 | F1: 0.8424 | OA: 0.9308 | Precision: 0.8875 | Recall: 0.7983 | leaf_iou: 0.9465 | stem_iou: 0.7403
+Epoch 66/100 | train_loss: 0.2801 | val_loss: 0.3769 | mIoU: 0.8514 | F1: 0.8559 | OA: 0.9314 | Precision: 0.9009 | Recall: 0.8106 | leaf_iou: 0.9464 | stem_iou: 0.7389
+Epoch 67/100 | train_loss: 0.2750 | val_loss: 0.3719 | mIoU: 0.8520 | F1: 0.8578 | OA: 0.9320 | Precision: 0.9030 | Recall: 0.8109 | leaf_iou: 0.9463 | stem_iou: 0.7372
+Epoch 68/100 | train_loss: 0.2701 | val_loss: 0.3670 | mIoU: 0.8526 | F1: 0.8474 | OA: 0.9326 | Precision: 0.8930 | Recall: 0.7986 | leaf_iou: 0.9461 | stem_iou: 0.7356
+Epoch 69/100 | train_loss: 0.2653 | val_loss: 0.3623 | mIoU: 0.8533 | F1: 0.8281 | OA: 0.9333 | Precision: 0.8744 | Recall: 0.7771 | leaf_iou: 0.9462 | stem_iou: 0.7339
+Epoch 70/100 | train_loss: 0.2607 | val_loss: 0.3577 | mIoU: 0.8541 | F1: 0.8065 | OA: 0.9341 | Precision: 0.8537 | Recall: 0.7531 | leaf_iou: 0.9464 | stem_iou: 0.7325
+Epoch 71/100 | train_loss: 0.2562 | val_loss: 0.3531 | mIoU: 0.8551 | F1: 0.7901 | OA: 0.9351 | Precision: 0.8384 | Recall: 0.7344 | leaf_iou: 0.9469 | stem_iou: 0.7313
+Epoch 72/100 | train_loss: 0.2518 | val_loss: 0.3487 | mIoU: 0.8565 | F1: 0.7850 | OA: 0.9365 | Precision: 0.8346 | Recall: 0.7269 | leaf_iou: 0.9477 | stem_iou: 0.7305
+Epoch 73/100 | train_loss: 0.2475 | val_loss: 0.3444 | mIoU: 0.8580 | F1: 0.7935 | OA: 0.9380 | Precision: 0.8446 | Recall: 0.7332 | leaf_iou: 0.9488 | stem_iou: 0.7300
+Epoch 74/100 | train_loss: 0.2434 | val_loss: 0.3402 | mIoU: 0.8599 | F1: 0.8138 | OA: 0.9399 | Precision: 0.8665 | Recall: 0.7515 | leaf_iou: 0.9504 | stem_iou: 0.7300
+Epoch 75/100 | train_loss: 0.2394 | val_loss: 0.3360 | mIoU: 0.8621 | F1: 0.8402 | OA: 0.9421 | Precision: 0.8945 | Recall: 0.7761 | leaf_iou: 0.9522 | stem_iou: 0.7303
+Epoch 76/100 | train_loss: 0.2355 | val_loss: 0.3320 | mIoU: 0.8644 | F1: 0.8649 | OA: 0.9444 | Precision: 0.9209 | Recall: 0.7995 | leaf_iou: 0.9545 | stem_iou: 0.7311
+Epoch 77/100 | train_loss: 0.2317 | val_loss: 0.3281 | mIoU: 0.8670 | F1: 0.8809 | OA: 0.9470 | Precision: 0.9386 | Recall: 0.8145 | leaf_iou: 0.9570 | stem_iou: 0.7323
+Epoch 78/100 | train_loss: 0.2280 | val_loss: 0.3242 | mIoU: 0.8696 | F1: 0.8840 | OA: 0.9496 | Precision: 0.9432 | Recall: 0.8171 | leaf_iou: 0.9597 | stem_iou: 0.7338
+Epoch 79/100 | train_loss: 0.2245 | val_loss: 0.3253 | mIoU: 0.8724 | F1: 0.8741 | OA: 0.9524 | Precision: 0.9347 | Recall: 0.8071 | leaf_iou: 0.9626 | stem_iou: 0.7356
+Epoch 80/100 | train_loss: 0.2210 | val_loss: 0.3264 | mIoU: 0.8751 | F1: 0.8554 | OA: 0.9551 | Precision: 0.9173 | Recall: 0.7889 | leaf_iou: 0.9655 | stem_iou: 0.7376
+Epoch 81/100 | train_loss: 0.2176 | val_loss: 0.3277 | mIoU: 0.8776 | F1: 0.8347 | OA: 0.9576 | Precision: 0.8977 | Recall: 0.7691 | leaf_iou: 0.9684 | stem_iou: 0.7398
+Epoch 82/100 | train_loss: 0.2144 | val_loss: 0.3290 | mIoU: 0.8800 | F1: 0.8192 | OA: 0.9600 | Precision: 0.8831 | Recall: 0.7550 | leaf_iou: 0.9713 | stem_iou: 0.7420
+Epoch 83/100 | train_loss: 0.2112 | val_loss: 0.3304 | mIoU: 0.8822 | F1: 0.8143 | OA: 0.9622 | Precision: 0.8789 | Recall: 0.7518 | leaf_iou: 0.9739 | stem_iou: 0.7442
+Epoch 84/100 | train_loss: 0.2081 | val_loss: 0.3318 | mIoU: 0.8840 | F1: 0.8215 | OA: 0.9640 | Precision: 0.8864 | Recall: 0.7609 | leaf_iou: 0.9750 | stem_iou: 0.7451
+Epoch 85/100 | train_loss: 0.2051 | val_loss: 0.3334 | mIoU: 0.8855 | F1: 0.8379 | OA: 0.9655 | Precision: 0.9029 | Recall: 0.7796 | leaf_iou: 0.9750 | stem_iou: 0.7450
+Epoch 86/100 | train_loss: 0.2022 | val_loss: 0.3350 | mIoU: 0.8866 | F1: 0.8577 | OA: 0.9666 | Precision: 0.9225 | Recall: 0.8017 | leaf_iou: 0.9750 | stem_iou: 0.7451
+Epoch 87/100 | train_loss: 0.1994 | val_loss: 0.3367 | mIoU: 0.8832 | F1: 0.8738 | OA: 0.9632 | Precision: 0.9381 | Recall: 0.8202 | leaf_iou: 0.9750 | stem_iou: 0.7454
+Epoch 88/100 | train_loss: 0.1967 | val_loss: 0.3385 | mIoU: 0.8794 | F1: 0.8805 | OA: 0.9594 | Precision: 0.9441 | Recall: 0.8293 | leaf_iou: 0.9744 | stem_iou: 0.7453
+Epoch 89/100 | train_loss: 0.1940 | val_loss: 0.3403 | mIoU: 0.8752 | F1: 0.8754 | OA: 0.9552 | Precision: 0.9381 | Recall: 0.8264 | leaf_iou: 0.9710 | stem_iou: 0.7425
+Epoch 90/100 | train_loss: 0.1914 | val_loss: 0.3423 | mIoU: 0.8708 | F1: 0.8603 | OA: 0.9508 | Precision: 0.9218 | Recall: 0.8132 | leaf_iou: 0.9672 | stem_iou: 0.7397
+Epoch 91/100 | train_loss: 0.1889 | val_loss: 0.3443 | mIoU: 0.8662 | F1: 0.8405 | OA: 0.9462 | Precision: 0.9007 | Recall: 0.7951 | leaf_iou: 0.9633 | stem_iou: 0.7367
+Epoch 92/100 | train_loss: 0.1865 | val_loss: 0.3463 | mIoU: 0.8614 | F1: 0.8232 | OA: 0.9414 | Precision: 0.8819 | Recall: 0.7790 | leaf_iou: 0.9592 | stem_iou: 0.7337
+Epoch 93/100 | train_loss: 0.1841 | val_loss: 0.3484 | mIoU: 0.8566 | F1: 0.8100 | OA: 0.9366 | Precision: 0.8670 | Recall: 0.7666 | leaf_iou: 0.9549 | stem_iou: 0.7307
+Epoch 94/100 | train_loss: 0.1819 | val_loss: 0.3506 | mIoU: 0.8518 | F1: 0.8094 | OA: 0.9318 | Precision: 0.8649 | Recall: 0.7664 | leaf_iou: 0.9506 | stem_iou: 0.7278
+Epoch 95/100 | train_loss: 0.1796 | val_loss: 0.3528 | mIoU: 0.8471 | F1: 0.8211 | OA: 0.9271 | Precision: 0.8749 | Recall: 0.7780 | leaf_iou: 0.9464 | stem_iou: 0.7250
+Epoch 96/100 | train_loss: 0.1775 | val_loss: 0.3551 | mIoU: 0.8426 | F1: 0.8404 | OA: 0.9226 | Precision: 0.8925 | Recall: 0.7967 | leaf_iou: 0.9422 | stem_iou: 0.7223
+Epoch 97/100 | train_loss: 0.1754 | val_loss: 0.3575 | mIoU: 0.8383 | F1: 0.8601 | OA: 0.9183 | Precision: 0.9106 | Recall: 0.8153 | leaf_iou: 0.9381 | stem_iou: 0.7199
+Epoch 98/100 | train_loss: 0.1733 | val_loss: 0.3599 | mIoU: 0.8343 | F1: 0.8726 | OA: 0.9143 | Precision: 0.9217 | Recall: 0.8263 | leaf_iou: 0.9343 | stem_iou: 0.7177
+Epoch 99/100 | train_loss: 0.1713 | val_loss: 0.3624 | mIoU: 0.8306 | F1: 0.8726 | OA: 0.9106 | Precision: 0.9205 | Recall: 0.8246 | leaf_iou: 0.9306 | stem_iou: 0.7157
+Epoch 100/100 | train_loss: 0.1694 | val_loss: 0.3649 | mIoU: 0.8273 | F1: 0.8589 | OA: 0.9073 | Precision: 0.9057 | Recall: 0.8088 | leaf_iou: 0.9272 | stem_iou: 0.7139
+eval point avg class IoU: 0.8273
+eval point accuracy: 0.9073
+eval point avg class acc: 0.8723
+Best mIoU: 0.8866 at epoch 86
+Best F1: 0.8840 at epoch 78
+Class IoU:
+Leaf: 92.72
+Stem: 71.39

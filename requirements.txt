@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+streamlit
+pandas
+numpy
+matplotlib
+markdown
+pytest
+httpx
