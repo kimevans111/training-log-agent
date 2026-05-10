@@ -1,8 +1,24 @@
 # Training Log Agent
 
+A rule-based AI tool agent for deep learning training log analysis, metric diagnosis, tuning suggestions, plotting, and report generation.
+
 Training Log Agent 是一个面向深度学习实验的训练日志自动分析与调参建议系统。它可以读取 `.log`、`.txt`、`.csv`、`.json` 训练日志，解析 epoch、loss、mIoU、F1、Precision、Recall、leaf/stem IoU 等指标，自动绘制训练曲线，诊断过拟合、欠拟合、震荡、不收敛、类别不平衡等问题，并生成 Markdown 实验分析报告。
 
 这个项目适合用于展示 AI Agent 工具调用、深度学习实验自动分析、训练日志解析、自动报告生成和科研自动化应用场景。
+
+## Highlights
+
+- Parses `.log`, `.txt`, `.csv`, and `.json` training metrics.
+- Diagnoses overfitting, instability, class imbalance, and precision/recall conflicts.
+- Generates plots and Markdown experiment reports.
+- Runs locally without API keys and includes tests, Docker, scripts, and sample data.
+
+## Quick Start
+
+```bash
+pip install -r requirements.txt
+python scripts/run_demo.py
+```
 
 ## 作品集文档
 

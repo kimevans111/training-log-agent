@@ -6,6 +6,8 @@ __pycache__/
 .venv/
 venv/
 .env
+.env.*
+!.env.example
 uploads/*
 !uploads/.gitkeep
 reports/*.md
@@ -15,4 +17,10 @@ reports/figures/*
 *.egg-info/
 dist/
 build/
-
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.sqlite
+*.db
