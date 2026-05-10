@@ -32,4 +32,4 @@ question = "What should I tune next if stem IoU is lower than leaf IoU?"
 }
 ```
 
-面试讲解重点：每一步都有明确输入输出，诊断结论可追溯到具体指标，不依赖 LLM 幻觉。
+工程说明：每一步都有明确输入输出，诊断结论可追溯到具体指标，不依赖 LLM 幻觉。

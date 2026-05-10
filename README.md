@@ -20,18 +20,10 @@ pip install -r requirements.txt
 python scripts/run_demo.py
 ```
 
-## 作品集文档
+## Documentation
 
-本项目已经补充面向实习投递和面试讲解的系统文档：
-
-- `docs/PROJECT_REVIEW.md`：当前项目理解、可运行能力、Demo 感和优先补强点。
-- `docs/README_PORTFOLIO.md`：作品集级项目介绍。
-- `docs/ARCHITECTURE.md`：架构、数据流、Agent 工作流、Tool Calling 和为什么本项目不是 RAG 主线。
+- `docs/ARCHITECTURE.md`：架构、数据流、Agent 工作流、Tool Calling 和设计取舍。
 - `docs/AGENT_TRACE.md`：一次日志分析的 Agent 执行轨迹。
-- `docs/PROJECT_WALKTHROUGH.md`：30 秒、2 分钟、5 分钟讲解稿。
-- `docs/INTERVIEW_STUDY_GUIDE.md`：AI Agent / 后端 / 日志分析面试学习文档。
-- `docs/INTERVIEW_QA.md`：常见面试问答。
-- `docs/RESUME_TEMPLATE.md`：中文和英文简历描述模板。
 - `docs/DEMO_OUTPUT.md`：命令行 Demo 示例输出。
 
 ## 项目亮点
